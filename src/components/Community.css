@@ -1,0 +1,86 @@
+.community {
+	display: flex;
+	flex-direction: column;
+	margin: -50px auto;
+}
+
+.community--title {
+	font-family: var(--fina);
+	color: var(--violeta);
+}
+
+.cards {
+	display: grid;
+	grid-template-areas:
+		"a b c d d e"
+		"f f g d d h"
+		"f f i j k l";
+	/* grid-template-columns: 1fr ;
+	grid-template-rows: 1fr 1fr 1fr; */
+	grid-gap: 10px;
+	width: 90vw;
+}
+
+.a {
+	grid-area: a;
+	width: 100%;
+	height: 100%;
+}
+
+.b {
+	grid-area: b;
+	width: 100%;
+	height: 100%;
+}
+.c {
+	grid-area: c;
+	width: 100%;
+	height: 100%;
+}
+
+.d {
+	grid-area: d;
+	width: 100%;
+	height: 100%;
+}
+
+.e {
+	grid-area: e;
+	width: 100%;
+	height: 100%;
+}
+.f {
+	grid-area: f;
+	width: 100%;
+	height: 100%;
+}
+.g {
+	grid-area: g;
+	width: 100%;
+	height: 100%;
+}
+.h {
+	grid-area: h;
+	width: 100%;
+	height: 100%;
+}
+.i {
+	grid-area: i;
+	width: 100%;
+	height: 100%;
+}
+.j {
+	grid-area: j;
+	width: 100%;
+	height: 100%;
+}
+.k {
+	grid-area: k;
+	width: 100%;
+	height: 100%;
+}
+.l {
+	grid-area: l;
+	width: 100%;
+	height: 100%;
+}

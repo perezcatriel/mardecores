@@ -1,4 +1,28 @@
-body {
+:root {
+	--violeta: #bf92b4;
+	--rosa: #ffddc4;
+	--gris: #eaebeb;
+	--celeste: #03c9d4;
+	--azul: #016aa1;
+
+	--cursiva: "Style Script";
+	--angosta: Oswald;
+	--fina: Roboto;
+
+	--ha1: Gwendolyn;
+	--ha2: Ubuntu;
+	--ha3: Lato;
+
+	--hb1: "Corinthia";
+	--hb2: "Bebas Neue";
+	--hb3: Montserrat;
+}
+
+/* body {
+  background-color: var(--color2);
+} */
+
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -11,3 +35,4 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ */

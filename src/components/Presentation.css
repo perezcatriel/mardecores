@@ -1,0 +1,50 @@
+.presentation {
+	width: 80vw;
+	height: 80vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.slogan {
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h2 {
+	font-family: var(--cursiva);
+	color: var(--azul);
+	font-size: 5rem;
+	margin-bottom: 0px;
+}
+
+.slogan-parrafo {
+	font-family: var(--fina);
+	color: var(--violeta);
+	font-size: 2.5rem;
+	text-align: center;
+	margin-top: 0px;
+}
+
+.images {
+	display: flex;
+}
+
+img {
+	width: 300px;
+	height: 600px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px var(--azul);
+
+}
+
+.img-mini {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	bottom: 30px;
+	right: 150px;
+	box-shadow: 0 0 10px var(--azul);
+}

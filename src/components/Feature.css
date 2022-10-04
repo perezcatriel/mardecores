@@ -1,0 +1,41 @@
+.feature {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-items: center;
+	justify-content: center;
+}
+
+.feature--cards {
+	display: flex;
+  width: 90vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.feature--title {
+	font-family: var(--fina);
+	color: var(--violeta);
+	font-size: 5rem;
+	width: 100vw;
+	text-align: center;
+	margin-top: -50px;
+}
+
+.feature--card {
+	display: flex;
+	flex-direction: column;
+}
+
+.feature--card__title {
+	font-family: var(--fina);
+	color: var(--violeta);
+  font-size: 2rem;
+}
+
+.feature--card__price {
+	font-family: var(--fina);
+	color: var(--violeta);
+font-size: 3rem;
+	font-weight: bold;
+}

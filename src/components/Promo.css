@@ -1,0 +1,42 @@
+.promo {
+	background-image: url("../assets/jeri-atardecer.jpg");
+	width: 90vw;
+	height: 800px;
+	background-position: 50%;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 100px auto;
+	background-repeat: no-repeat;
+}
+
+.img-1,
+.img-2 {
+	width: 40vw;
+}
+
+figure {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.img-1,
+.img-2 {
+	/* border: 1px solid var(--rosa); */
+	box-shadow: 0 0 20px var(--azul);
+}
+
+.promo-parrafo {
+	position: absolute;
+	color: var(--rosa);
+	font-family: var(--angosta);
+	text-shadow: 0 0 10px var(--azul);
+	font-size: 5rem;
+}
+
+.promo-parrafo:hover {
+	color: var(--violeta);
+	text-shadow: 0 0 10px var(--azul);
+	cursor: pointer;
+}
