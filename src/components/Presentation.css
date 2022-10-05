@@ -16,7 +16,7 @@
 h2 {
 	font-family: var(--cursiva);
 	color: var(--azul);
-	font-size: 5rem;
+	font-size: 6rem;
 	margin-bottom: 0px;
 }
 
@@ -33,7 +33,7 @@ h2 {
 }
 
 img {
-	width: 300px;
+	width: 800px;
 	height: 600px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px var(--azul);

@@ -10,7 +10,14 @@
 	display: flex;
   width: 90vw;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
+	gap: 20px;
+}
+
+.feature--card {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
 }
 
 .feature--title {
@@ -22,10 +29,7 @@
 	margin-top: -50px;
 }
 
-.feature--card {
-	display: flex;
-	flex-direction: column;
-}
+
 
 .feature--card__title {
 	font-family: var(--fina);

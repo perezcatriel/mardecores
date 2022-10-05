@@ -1,0 +1,45 @@
+.register {
+	margin: 150px auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 90vw;
+	background-image: url("../assets/jeri.jpeg");
+	background-size: contain;
+}
+
+.register--parrafo {
+	font-family: var(--fina);
+	color: var(--azul);
+	text-shadow: 0 0 10px var(--gris);
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+.register--form {
+  display: flex;
+  align-items: center;
+  }
+
+.register--input {
+	font-family: var(--fina);
+	font-size: 1.5rem;
+  color: var(--rosa);
+	border-radius: 10px;
+	background-color: var(--azul);
+	border: none;
+	box-shadow: 0 0 10px var(--rosa);
+	padding: 7px;
+  outline: 1px solid var(--violeta);
+}
+
+.register--input:focus{
+  outline: 5px solid var(--violeta);
+
+}
+
+::placeholder {
+	color: var(--rosa);
+}
+
+

@@ -1,0 +1,67 @@
+.contact {
+	/* background-color: black; */
+	width: 90vw;
+	margin: auto;
+	display: grid;
+	grid-template-areas:
+		"contact1 contact2 menu menu"
+		"contact1 contact2 menu menu"
+		"redes redes redes redes";
+	font-family: var(--fina);
+	color: var(--violeta);
+}
+
+.contact--contact {
+	/* background-color: red; */
+	grid-area: contact1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.contact--contact2 {
+	/* background-color: blue; */
+	grid-area: contact2;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.contact--menu {
+	/* background-color: red; */
+	grid-area: menu;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%;
+}
+
+.contact--redes {
+	/* background-color: red; */
+	grid-area: redes;
+	/* display: flex;
+	justify-content: space-between;
+	width: 100%;
+	height: 100%; */
+}
+
+.contact--redes__lists {
+	display: flex;
+	justify-content: start;
+}
+
+.contact--redes__by {
+	display: flex;
+	justify-content: center;
+}
+
+.contact-h2 {
+	font-family: var(--fina);
+	font-size: 2rem;
+	color: var(--azul);
+}
