@@ -1,6 +1,7 @@
 // import logo from "./logo.svg";
 import "./App.css";
 import Community from "./components/Community";
+import Contact from "./components/Contact";
 import Feature from "./components/Feature";
 import Header from "./components/Header";
 import Presentation from "./components/Presentation";
@@ -16,6 +17,7 @@ function App() {
 			<Feature />
 			<Community />
 			<Registrer />
+			<Contact />
 		</div>
 	);
 }
