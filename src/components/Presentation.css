@@ -1,50 +1,97 @@
 .presentation {
-	width: 80vw;
-	height: 80vh;
+	width: 90vw;
+	/* height: 90vh; */
 	margin: auto;
 	display: flex;
+	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
+	margin-top: 50px;
+	position: relative;
 }
 
-.slogan {
-	display: inline-flex;
+.presentation--slogan {
+	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: space-between;
+	/* height: 250px; */
 }
 
-h2 {
+.presentation--title {
 	font-family: var(--cursiva);
 	color: var(--azul);
-	font-size: 6rem;
-	margin-bottom: 0px;
+	font-size: 4rem;
 }
 
-.slogan-parrafo {
-	font-family: var(--fina);
+.presentation--parrafo {
 	color: var(--violeta);
-	font-size: 2.5rem;
-	text-align: center;
-	margin-top: 0px;
 }
 
-.images {
-	display: flex;
-}
-
-img {
-	width: 800px;
-	height: 600px;
+.presentation--button {
+	font-size: 0.9rem;
+	margin-top: 20px;
+	width: 150px;
+	background-color: var(--gris);
+	color: var(--azul);
+	border: none;
 	border-radius: 10px;
+	padding: 10px;
 	box-shadow: 0 0 10px var(--azul);
-
 }
 
-.img-mini {
-	width: 300px;
-	height: 300px;
-	position: absolute;
-	bottom: 30px;
-	right: 150px;
+.presentation--button:hover {
+	background-color: var(--violeta);
+	color: var(--gris);
+	cursor: pointer;
+	box-shadow: 0 0 10px var(--violeta);
+}
+
+.presentation--images__background {
+	display: none;
+}
+
+.presentation--images__mini {
+	margin-top: 50px;
+	border-radius: 10px;
+	width: 80vw;
 	box-shadow: 0 0 10px var(--azul);
+	outline: 1px solid var(--azul);
+}
+
+@media only screen and (min-width: 900px) {
+	.presentation {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.presentation--title {
+		font-size: 3rem;
+	}
+
+	.presentation--images__background {
+		display: block;
+		width: 500px;
+		margin-left: 50px;
+	}
+
+	.presentation--images__mini {
+		width: 200px;
+		position: absolute;
+		top: 200px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.presentation--title {
+		font-size: 6rem;
+	}
+
+	.presentation--images__background {
+		width: 40vw;
+	}
+
+	.presentation--button {
+		width: 250px;
+	}
 }

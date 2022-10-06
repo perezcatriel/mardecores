@@ -1,57 +1,44 @@
-header {
+.header {
 	display: flex;
-	align-items: center;
 	justify-content: space-around;
+	align-items: center;
+	margin: 10px;
 	border-bottom: 1px solid var(--violeta);
-	width: 90vw;
-	margin: auto;
 }
 
-h1 {
+.header--title {
 	font-family: var(--cursiva);
 	color: var(--azul);
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
-h1:hover {
+.header--title:hover {
 	color: var(--violeta);
 }
 
-ul {
-	display: flex;
-	justify-content: space-around;
+.header--menu {
+	display: none;
 }
 
-a {
-	text-decoration: none;
-}
-
-a:hover,
-li:hover {
-	cursor: pointer;
-	color: var(--azul);
-}
-
-li {
-	font-family: var(--fina);
-	color: var(--violeta);
-	font-size: 1rem;
-	list-style-type: none;
-	margin-right: 15px;
-}
-
-section {
+.header--login {
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	width: 180px;
 }
 
-button {
-	font-family: var(--angosta);
+.header--login__avatar,
+.header--login__shop {
+	color: var(--violeta);
+}
+
+.header--login__shop {
+	margin-top: 25px;
+}
+
+.header--login__button {
 	font-size: 0.9rem;
 	margin: 0 10px 0;
-	width: 150px;
+	width: 80px;
 	background-color: var(--gris);
 	color: var(--azul);
 	border: none;
@@ -60,34 +47,67 @@ button {
 	box-shadow: 0 0 10px var(--azul);
 }
 
-button:hover {
+.header--login__button:hover {
 	background-color: var(--violeta);
 	color: var(--gris);
 	cursor: pointer;
 	box-shadow: 0 0 10px var(--violeta);
-
 }
 
-span {
-	color: var(--violeta);
-}
-
-article {
-	margin-top: 25px;
-}
-
-.circulo {
+.header--login__circulo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: var(--azul);
-	width: 25px;
-	height: 25px;
+	width: 10px;
+	height: 10px;
 	border-radius: 50%;
+	padding: 10px;
+	color: var(--rosa);
 	position: relative;
 	top: -50px;
-	right: -10px;
-	color: var(--gris);
-	font-weight: bold;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 1px;
+	right: -15px;
+}
+
+@media only screen and (min-width: 600px) {
+	/* For mobile phones: */
+	.header--title {
+		font-size: 3.5rem;
+	}
+
+	.header--login__button {
+		width: 100px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.header--title {
+		font-size: 4rem;
+	}
+
+	.header--menu {
+		display: flex;
+		margin: 0 0 0 20px;
+	}
+
+	.header--menu a {
+		text-decoration: none;
+	}
+
+	.header--menu a:hover,
+	.header--menu li:hover {
+		cursor: pointer;
+		color: var(--azul);
+	}
+
+	.header--menu li {
+		color: var(--violeta);
+		font-size: 1rem;
+		list-style-type: none;
+		margin-right: 15px;
+	}
+
+	.header--login__button {
+		width: 120px;
+	}
 }

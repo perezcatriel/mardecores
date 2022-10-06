@@ -5,15 +5,23 @@ import bikini from "../assets/bikini.jpeg";
 function Presentation() {
 	return (
 		<div className="presentation">
-			<article className="slogan">
-				<h2>Mar de Cores</h2>
-				<p className="slogan-parrafo">Slogan</p>
-				<button>Shop Now</button>
+			<article className="presentation--slogan">
+				<h2 className="presentation--title">Mar de Cores</h2>
+				<p className="presentation--parrafo">Slogan</p>
+				<button className="presentation--button">Shop Now</button>
 			</article>
 
-			<article className="images">
-				<img src={jeriAtardecer} alt="slogan" />
-				<img src={bikini} alt="mini-imagen" className="img-mini" />
+			<article className="presentation--images">
+				<img
+					src={jeriAtardecer}
+					alt="slogan"
+					className="presentation--images__background"
+				/>
+				<img
+					src={bikini}
+					alt="mini-img"
+					className="presentation--images__mini"
+				/>
 			</article>
 		</div>
 	);

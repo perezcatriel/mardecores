@@ -5,6 +5,7 @@
 	align-items: center;
 	width: 90vw;
 	background-image: url("../assets/jeri.jpeg");
+	display: none;
 	background-size: contain;
 }
 

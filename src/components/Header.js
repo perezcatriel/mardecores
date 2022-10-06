@@ -2,10 +2,10 @@ import "./Header.css";
 
 function Header() {
 	return (
-		<header>
-			<h1>Mar de Cores</h1>
+		<header className="header">
+			<h1 className="header--title">Mar de Cores</h1>
 
-			<ul>
+			<ul className="header--menu">
 				<a href="#">
 					<li>Home</li>
 				</a>
@@ -23,14 +23,16 @@ function Header() {
 				</a>
 			</ul>
 
-			<section>
-				<span className="material-symbols-outlined">account_circle</span>
+			<section className="header--login">
+				<div className="header--login__avatar">
+					<span className="material-symbols-outlined">account_circle</span>
+				</div>
 
-				<button>Login In</button>
+				<button className="header--login__button">Login In</button>
 
-				<article>
+				<article className="header--login__shop">
 					<span className="material-symbols-outlined">shopping_bag</span>
-					<div className="circulo">5</div>
+					<div className="header--login__circulo">5</div>
 				</article>
 			</section>
 		</header>
