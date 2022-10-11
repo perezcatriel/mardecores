@@ -5,15 +5,15 @@
 	align-items: center;
 	width: 90vw;
 	background-image: url("../assets/jeri.jpeg");
-	display: none;
+	/* display: none; */
 	background-size: contain;
 }
 
 .register--parrafo {
-	font-family: var(--fina);
-	color: var(--azul);
-	text-shadow: 0 0 10px var(--gris);
-	font-size: 3rem;
+	/* font-family: var(--fina); */
+	color: var(--violeta);
+	text-shadow: 0 0 10px var(--azul);
+	font-size: 2rem;
 	font-weight: bold;
 }
 
@@ -22,9 +22,9 @@
   align-items: center;
   }
 
-.register--input {
-	font-family: var(--fina);
-	font-size: 1.5rem;
+.register--form__input {
+	/* font-family: var(--fina); */
+	font-size: 1rem;
   color: var(--rosa);
 	border-radius: 10px;
 	background-color: var(--azul);
@@ -34,7 +34,7 @@
   outline: 1px solid var(--violeta);
 }
 
-.register--input:focus{
+.register--form__input:focus{
   outline: 5px solid var(--violeta);
 
 }

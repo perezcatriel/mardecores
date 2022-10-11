@@ -1,43 +1,59 @@
 .promo {
-	background-image: url("../assets/jeri-atardecer.jpg");
 	width: 90vw;
-	height: 800px;
+	margin: 50px auto;
+	background-image: url("../assets/jeri-atardecer.jpg");
 	background-position: 50%;
 	background-size: cover;
 	background-attachment: fixed;
-	margin: 100px auto;
-	background-repeat: no-repeat;
-	display: none;
-}
-
-.img-1,
-.img-2 {
-	width: 40vw;
-}
-
-figure {
-	position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: center;
 }
 
-.img-1,
-.img-2 {
-	/* border: 1px solid var(--rosa); */
+.promo--image {
+	margin: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	place-content: center;
+}
+
+.promo--image__img-1,
+.promo--image__img-2 {
+	width: 50vw;
 	box-shadow: 0 0 20px var(--azul);
+	border-radius: 10px;
 }
 
-.promo-parrafo {
+.promo--image__parrafo {
 	position: absolute;
 	color: var(--rosa);
 	font-family: var(--angosta);
 	text-shadow: 0 0 10px var(--azul);
-	font-size: 5rem;
+	font-size: 3rem;
 }
 
-.promo-parrafo:hover {
+.promo--image__parrafo:hover {
 	color: var(--violeta);
 	text-shadow: 0 0 10px var(--azul);
 	cursor: pointer;
+}
+
+@media only screen and (min-width: 600px) {
+	.promo--image__parrafo {
+		font-size: 6rem;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.promo {
+		margin-top: 200px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+
+	.promo--image__img-1, .promo--image__img-2 {
+		width: 25vw;
+	}
 }

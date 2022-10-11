@@ -8,9 +8,9 @@ function Registrer() {
 				<input
 					type="email"
 					placeholder="name@gmail.com"
-					className="register--input"
+					className="register--form__input"
 				/>
-				<button type="button" className="rregister--button">
+				<button type="button" className="rregister--form__button">
 					Join
 				</button>
 			</form>

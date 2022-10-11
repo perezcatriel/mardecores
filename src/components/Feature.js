@@ -1,6 +1,5 @@
 import "./Feature.css";
-import bikini from '../assets/bikini.jpeg';
-
+import bikini from "../assets/bikini.jpeg";
 
 function Feature() {
 	return (
@@ -9,19 +8,31 @@ function Feature() {
 
 			<article className="feature--cards">
 				<figure className="feature--card">
-					<img src={bikini} alt="image" />
+					<img src={bikini} alt="image" className="feature--card__image" />
 					<caption className="feature--card__title">Viento Set</caption>
 					<figcaption className="feature--card__price">$10.00</figcaption>
 				</figure>
 
-        <figure className="feature--card">
-					<img src={bikini} alt="image" />
+				<figure className="feature--card">
+					<img src={bikini} alt="image" className="feature--card__image" />
 					<caption className="feature--card__title">Viento Set</caption>
 					<figcaption className="feature--card__price">$10.00</figcaption>
 				</figure>
 
-        <figure className="feature--card">
-					<img src={bikini} alt="image" />
+				<figure className="feature--card">
+					<img src={bikini} alt="image" className="feature--card__image" />
+					<caption className="feature--card__title">Viento Set</caption>
+					<figcaption className="feature--card__price">$10.00</figcaption>
+				</figure>
+
+				<figure className="feature--card">
+					<img src={bikini} alt="image" className="feature--card__image" />
+					<caption className="feature--card__title">Viento Set</caption>
+					<figcaption className="feature--card__price">$10.00</figcaption>
+				</figure>
+
+				<figure className="feature--card">
+					<img src={bikini} alt="image" className="feature--card__image" />
 					<caption className="feature--card__title">Viento Set</caption>
 					<figcaption className="feature--card__price">$10.00</figcaption>
 				</figure>

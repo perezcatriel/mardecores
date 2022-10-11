@@ -91,6 +91,10 @@
 		width: 40vw;
 	}
 
+	.presentation--images__mini {
+		width: 20vw;
+	}
+
 	.presentation--button {
 		width: 250px;
 	}
