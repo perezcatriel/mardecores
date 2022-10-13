@@ -1,68 +1,86 @@
 .contact {
-	/* background-color: black; */
 	width: 90vw;
 	margin: auto;
-	display: grid;
-	grid-template-areas:
-		"contact1 contact2 menu menu"
-		"contact1 contact2 menu menu"
-		"redes redes redes redes";
-	font-family: var(--fina);
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
 	color: var(--violeta);
-	/* display: none; */
 }
 
-.contact--contact {
-	/* background-color: red; */
-	grid-area: contact1;
+.contact--info__anchor {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
-	width: 100%;
-	height: 100%;
-}
-
-.contact--contact2 {
-	/* background-color: blue; */
-	grid-area: contact2;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 100%;
-	height: 100%;
 }
 
 .contact--menu {
-	/* background-color: red; */
-	grid-area: menu;
 	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	width: 100%;
-	height: 100%;
+	gap: 20px;
+	width: 90vw;
+	justify-content: center;
 }
 
-.contact--redes {
-	/* background-color: red; */
-	grid-area: redes;
-	/* display: flex;
-	justify-content: space-between;
-	width: 100%;
-	height: 100%; */
+.contact--redes__title {
+	text-align: center;
 }
 
 .contact--redes__lists {
 	display: flex;
-	justify-content: start;
-}
-
-.contact--redes__by {
-	display: flex;
+	gap: 20px;
+	text-decoration: none;
 	justify-content: center;
 }
 
-.contact-h2 {
-	font-family: var(--fina);
-	font-size: 2rem;
+.contact--redes__facebook,
+.contact--redes__instagram,
+.contact--redes__youtube {
+	list-style-type: none;
+}
+
+.contact--redes__by {
+	margin: 20px;
+	text-align: center;
+}
+
+.contact--redes__by a {
+	text-decoration: none;
+}
+
+a {
+	cursor: pointer;
+	text-shadow: 0 0 10px var(--gris);
+}
+
+a:hover {
 	color: var(--azul);
+}
+
+@media only screen and (min-width: 600px) {
+	.contact {
+		display: grid;
+
+		grid-template-areas:
+			"contact1 contact2 menu "
+			"redes redes redes";
+	}
+
+	.contact--contact-1 {
+		grid-area: contact1;
+	}
+
+	.contact--contact-2 {
+		grid-area: contact2;
+	}
+
+	.contact--menu {
+		display: grid;
+		grid-area: menu;
+		width: 100%;
+	}
+
+	.contact--redes {
+		grid-area: redes;
+		/* display: flex;
+		justify-content: space-between; */
+		width: 90vw;
+	}
 }
