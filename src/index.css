@@ -22,4 +22,5 @@
 	margin: 0;
 	padding: 0;
 	font-family: Ubuntu;
+	box-sizing: content-box;
 }

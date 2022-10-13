@@ -9,7 +9,7 @@
 		"redes redes redes redes";
 	font-family: var(--fina);
 	color: var(--violeta);
-	display: none;
+	/* display: none; */
 }
 
 .contact--contact {
