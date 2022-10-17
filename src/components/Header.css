@@ -8,12 +8,13 @@
 
 .header--title {
 	font-family: var(--cursiva);
-	color: var(--azul);
+	color: var(--violeta);
+	text-shadow: 0 0 10px var(--gris);
 	font-size: 2rem;
 }
 
 .header--title:hover {
-	color: var(--violeta);
+	color: var(--azul);
 }
 
 .header--menu {
@@ -67,6 +68,12 @@
 	position: relative;
 	top: -50px;
 	right: -15px;
+}
+
+.catriel {
+	color: var(--violeta);
+	font-weight: bold;
+	text-shadow: 0 0 10px var(--gris);
 }
 
 @media only screen and (min-width: 600px) {

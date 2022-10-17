@@ -7,6 +7,12 @@
 	color: var(--violeta);
 }
 
+.contact--contact-1,
+.contact--contact-2 {
+	margin: auto;
+	text-align: center;
+}
+
 .contact--info__anchor {
 	display: flex;
 	flex-direction: column;
@@ -65,10 +71,13 @@ a:hover {
 
 	.contact--contact-1 {
 		grid-area: contact1;
+		text-align: start;
 	}
 
 	.contact--contact-2 {
 		grid-area: contact2;
+		text-align: start;
+
 	}
 
 	.contact--menu {

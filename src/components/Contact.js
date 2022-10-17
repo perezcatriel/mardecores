@@ -63,7 +63,7 @@ function Contact() {
 				<div className="contact--redes__by">
 					<p>
 						© 2022 By Mar de Cores created for{" "}
-						<a href="https://perezcatriel.github.io/cv/public">Catriel Pérez</a>
+						<a href="https://perezcatriel.github.io/cv/public" className="catriel">Catriel Pérez</a>
 					</p>
 				</div>
 			</article>
