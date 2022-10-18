@@ -43,7 +43,7 @@ a:hover {
 	outline: none;
 }
 
-input[type="range"]::-webkit-slider-runnable-track,
+/* input[type="range"]::-webkit-slider-runnable-track,
 nput[type="range"]::-webkit-slider-thumb {
 	-webkit-appearance: none;
 	background-color: red;
@@ -55,9 +55,34 @@ input[name="price"] {
 	color: red;
 
 	background-color: red;
-}
+} */
 
 /* .filter--price__rango::-webkit-range-progress {
 	background-color: var(--rosa);
 	color: var(--rosa);
 } */
+
+input[type='range'] {
+  overflow: hidden;
+  width: 180px;
+  -webkit-appearance: none;
+  background-color: var(--violeta);
+  border-radius: 10px;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 10px;
+  -webkit-appearance: none;
+  color: var(--azul);
+  margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 10px;
+  -webkit-appearance: none;
+  height: 10px;
+  cursor: ew-resize;
+  background: var(--rosa);
+  box-shadow: -80px 0 0 80px var(--azul);
+  border-radius: 10px;
+}

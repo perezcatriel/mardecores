@@ -46,12 +46,13 @@ function Filter() {
 
 			<div className="filter--price " id="filter--price">
 				<input type="range" className="filter--price__rango"  min="10" name="price" />
-				<progress value="50" max="100"/>
+				
 				<input type="color" />
-				<br></br>
+				<br/>
+				
 				<label>
 					<input type="checkbox" />
-					rojo
+					 rojo
 				</label>
 				
 			</div>
