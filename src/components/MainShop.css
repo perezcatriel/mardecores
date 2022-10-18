@@ -1,5 +1,32 @@
-.mainshop--cards {
-  display: flex;
-  justify-content: space-around;
+.mainshop {
+	width: 60vw;
+}
 
+h1 {
+	text-align: center;
+	color: var(--violeta);
+	font-size: 3rem;
+}
+
+.mainshop--cards {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+article {
+	margin: 0 20px;
+}
+
+figure {
+	width: auto;
+	margin: 10px;
+	color: var(--violeta);
+	font-size: 2rem;
+	text-align: center;
+}
+
+img {
+  border-radius: 10px;
+  width: 300px;
 }

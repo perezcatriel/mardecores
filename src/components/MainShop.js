@@ -1,4 +1,5 @@
 import "./MainShop.css";
+import image from "../assets/bikini.jpeg";
 
 function MainShop() {
 	return (
@@ -8,7 +9,7 @@ function MainShop() {
 			<section className="mainshop--cards">
 				<article>
 					<figure>
-						<img alt="foto" />
+						<img src={image} alt="foto" />
 						<figcaption>Viento</figcaption>
 						<p>$80.00</p>
 					</figure>
@@ -16,7 +17,7 @@ function MainShop() {
 
 				<article>
 					<figure>
-						<img alt="foto" />
+						<img src={image} alt="foto" />
 						<figcaption>Viento</figcaption>
 						<p>$80.00</p>
 					</figure>
@@ -24,7 +25,7 @@ function MainShop() {
 
 				<article>
 					<figure>
-						<img alt="foto" />
+						<img src={image} alt="foto" />
 						<figcaption>Viento</figcaption>
 						<p>$80.00</p>
 					</figure>
