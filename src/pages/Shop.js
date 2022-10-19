@@ -7,7 +7,7 @@ import "../components/Shop.css";
 
 function Shop() {
 	return (
-		<>
+		<section className="shopPage">
 			<Header />
 			<ShopSearch />
 			<section className="shop-main">
@@ -15,7 +15,7 @@ function Shop() {
 				<MainShop />
 			</section>
 			<Contact />
-		</>
+		</section>
 	);
 }
 

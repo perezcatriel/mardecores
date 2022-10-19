@@ -30,6 +30,78 @@ function MainShop() {
 						<p>$80.00</p>
 					</figure>
 				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
+
+				<article>
+					<figure>
+						<img src={image} alt="foto" />
+						<figcaption>Viento</figcaption>
+						<p>$80.00</p>
+					</figure>
+				</article>
 			</section>
 		</section>
 	);
