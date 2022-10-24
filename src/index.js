@@ -27,7 +27,7 @@ root.render(
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
 					<Route path="/mardecores/mardecores/login" element={<Login />} />
-					<Route path="/mardecores/collection" element={<Collection />} />
+					<Route path="/collection" element={<Collection />} />
 					<Route path="/mardecores/product" element={<Product />} />
 					<Route path="mardecores/phylosopy" element={<Phylosopy />} />
 					<Route path="/mardecores/shop" element={<Shop />} />
