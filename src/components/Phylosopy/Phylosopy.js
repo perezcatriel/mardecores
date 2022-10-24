@@ -1,8 +1,8 @@
-import "./Presentation.css";
-import jeriAtardecer from "../assets/images.jpeg";
-import bikini from "../assets/bikini.jpeg";
+import "./Phylosopy.css";
+import jeriAtardecer from "../../assets/images.jpeg";
+import bikini from "../../assets/bikini.jpeg";
 
-function Presentation() {
+function Phylosopy() {
 	return (
 		<div className="presentation">
 			<article className="presentation--slogan">
@@ -27,4 +27,4 @@ function Presentation() {
 	);
 }
 
-export default Presentation;
+export default Phylosopy;

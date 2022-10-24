@@ -5,24 +5,6 @@ function Header() {
 		<header className="header">
 			<h1 className="header--title">Mar de Cores</h1>
 
-			<ul className="header--menu">
-				<a href="#">
-					<li>Home</li>
-				</a>
-				<a href="#">
-					<li>Shop</li>
-				</a>
-				<a href="#">
-					<li>Collection</li>
-				</a>
-				<a href="#">
-					<li>Philosophy</li>
-				</a>
-				<a href="#">
-					<li>Contact</li>
-				</a>
-			</ul>
-
 			<section className="header--login">
 				<div className="header--login__avatar">
 					<span className="material-symbols-outlined">account_circle</span>

@@ -1,6 +1,6 @@
-import "./Contact.css";
+import "./Footer.css";
 
-function Contact() {
+function Footer() {
 	return (
 		<section className="contact">
 			<article className="contact--contact-1">
@@ -63,7 +63,12 @@ function Contact() {
 				<div className="contact--redes__by">
 					<p>
 						© 2022 By Mar de Cores created for{" "}
-						<a href="https://perezcatriel.github.io/cv/public" className="catriel">Catriel Pérez</a>
+						<a
+							href="https://perezcatriel.github.io/cv/public"
+							className="catriel"
+						>
+							Catriel Pérez
+						</a>
 					</p>
 				</div>
 			</article>
@@ -71,4 +76,4 @@ function Contact() {
 	);
 }
 
-export default Contact;
+export default Footer;
