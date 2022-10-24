@@ -26,12 +26,12 @@ root.render(
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
-					<Route path="/login" element={<Login />} />
-					<Route path="/collection" element={<Collection />} />
-					<Route path="/product" element={<Product />} />
-					<Route path="phylosopy" element={<Phylosopy />} />
-					<Route path="/shop" element={<Shop />} />
-					<Route path="/offsale" element={<OffSale />} />
+					<Route path="/mardecores/mardecores/login" element={<Login />} />
+					<Route path="/mardecores/collection" element={<Collection />} />
+					<Route path="/mardecores/product" element={<Product />} />
+					<Route path="mardecores/phylosopy" element={<Phylosopy />} />
+					<Route path="/mardecores/shop" element={<Shop />} />
+					<Route path="/mardecores/offsale" element={<OffSale />} />
 					<Route path="*" element={<Home />} />
 				</Route>
 			</Routes>
