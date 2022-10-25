@@ -17,10 +17,6 @@
 	color: var(--azul);
 }
 
-.header--menu {
-	display: none;
-}
-
 .header--login {
 	display: flex;
 	justify-content: space-around;

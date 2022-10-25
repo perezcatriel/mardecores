@@ -1,3 +1,3 @@
 export default function Phylosopy() {
-  return <h1>Pylosopy</h1>
+  return <h1>Phylosopy</h1>
 }

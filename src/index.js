@@ -12,7 +12,7 @@ import OffSale from "./pages/OffSale";
 import Collection from "./pages/Collections";
 import Product from "./pages/Product";
 import Shop from "./pages/Shop";
-
+import Contact from "./pages/Contact";
 import Phylosopy from "./pages/Phylosopy";
 
 import NotFound from "./pages/NotFound";
@@ -26,13 +26,14 @@ root.render(
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
-					<Route path="/mardecores/mardecores/login" element={<Login />} />
+					<Route path="/login" element={<Login />} />
 					<Route path="/collection" element={<Collection />} />
-					<Route path="/mardecores/product" element={<Product />} />
-					<Route path="mardecores/phylosopy" element={<Phylosopy />} />
-					<Route path="/mardecores/shop" element={<Shop />} />
-					<Route path="/mardecores/offsale" element={<OffSale />} />
-					<Route path="*" element={<Home />} />
+					<Route path="/product" element={<Product />} />
+					<Route path="/phylosopy" element={<Phylosopy />} />
+					<Route path="/shop" element={<Shop />} />
+					<Route path="/offsale" element={<OffSale />} />
+					<Route path="/contact" element={<Contact />} />
+					<Route path="*" element={<NotFound />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
