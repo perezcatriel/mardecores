@@ -1,7 +1,7 @@
-import ShopSearch from "../components/ShopSearch";
-import Filter from "../components/Filter";
-import MainShop from "../components/MainShop";
-import "../components/Shop.css";
+import ShopSearch from "../components/Shop/ShopSearch";
+import Filter from "../components/Filter/Filter";
+import MainShop from "../components/Shop/ShopMain";
+import "../components/Shop/Shop.css";
 
 function Shop() {
 	return (
