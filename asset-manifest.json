@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/mardecores/static/css/main.9999123a.css",
-    "main.js": "/mardecores/static/js/main.c234a869.js",
+    "main.css": "/mardecores/static/css/main.663f8203.css",
+    "main.js": "/mardecores/static/js/main.d1f3cf73.js",
     "static/js/787.842e6ef0.chunk.js": "/mardecores/static/js/787.842e6ef0.chunk.js",
     "static/media/jeri-atardecer.jpg": "/mardecores/static/media/jeri-atardecer.0940731859f0dd5f99f5.jpg",
     "static/media/images.jpeg": "/mardecores/static/media/images.3a3f9b6b0d855c1f1341.jpeg",
     "static/media/bikini.jpeg": "/mardecores/static/media/bikini.12932a397461e01bfb1c.jpeg",
     "index.html": "/mardecores/index.html",
-    "main.9999123a.css.map": "/mardecores/static/css/main.9999123a.css.map",
-    "main.c234a869.js.map": "/mardecores/static/js/main.c234a869.js.map",
+    "main.663f8203.css.map": "/mardecores/static/css/main.663f8203.css.map",
+    "main.d1f3cf73.js.map": "/mardecores/static/js/main.d1f3cf73.js.map",
     "787.842e6ef0.chunk.js.map": "/mardecores/static/js/787.842e6ef0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9999123a.css",
-    "static/js/main.c234a869.js"
+    "static/css/main.663f8203.css",
+    "static/js/main.d1f3cf73.js"
   ]
 }
