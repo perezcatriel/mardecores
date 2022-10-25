@@ -11,6 +11,7 @@
 	color: var(--violeta);
 	text-shadow: 0 0 10px var(--gris);
 	font-size: 1.8rem;
+	z-index: 50;
 }
 
 .header--title:hover {
@@ -42,6 +43,7 @@
 	border-radius: 10px;
 	padding: 10px;
 	box-shadow: 0 0 10px var(--azul);
+	z-index: 50;
 }
 
 .header--login__button:hover {

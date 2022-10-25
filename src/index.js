@@ -33,7 +33,7 @@ root.render(
 					<Route path="/shop" element={<Shop />} />
 					<Route path="/offsale" element={<OffSale />} />
 					<Route path="/contact" element={<Contact />} />
-					<Route path="*" element={<NotFound />} />
+					<Route path="*" element={<Home />} />
 				</Route>
 			</Routes>
 		</BrowserRouter>
