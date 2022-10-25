@@ -1,0 +1,78 @@
+.register {
+	margin: 50px auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90vw;
+	height: 20vh;
+	background-image: url("../../assets/jeri.jpeg");
+	background-size: contain;
+}
+
+.register--form {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.register--form__input {
+	font-size: 1rem;
+	color: var(--rosa);
+	border-radius: 5px;
+	background-color: var(--violeta);
+	border: none;
+	box-shadow: 0 0 10px var(--azul);
+	padding: 10px;
+	outline: 1px solid var(--violeta);
+	width: 200px;
+}
+
+.register--form__input:focus {
+	outline: 5px solid var(--rosa);
+}
+
+::placeholder {
+	color: var(--rosa);
+}
+
+.register--form__button {
+	font-size: 0.9rem;
+	margin: 10px 10px 0;
+	width: 200px;
+	background-color: var(--gris);
+	color: var(--azul);
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 10px var(--azul);
+}
+
+.register--form__button:hover {
+	background-color: var(--violeta);
+	color: var(--gris);
+	cursor: pointer;
+	box-shadow: 0 0 10px var(--violeta);
+}
+
+@media only screen and (min-width: 600px) {
+	.register--form {
+		margin: auto;
+		align-items: end;
+	}
+
+	.register--form__input {
+		width: 300px;
+	}
+}
+
+@media only screen and (min-width: 900px) {
+	.register--form__input {
+		font-size: 1.5rem;
+		width: 400px;
+	}
+
+	.register--form__button {
+		font-size: 1.5rem;
+	}
+}
