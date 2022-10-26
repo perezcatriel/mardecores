@@ -1,0 +1,54 @@
+.card {
+	margin: 50px auto;
+	width: 90vw;
+}
+
+h2 {
+	color: var(--violeta);
+	font-size: 2rem;
+}
+
+p {
+	color: var(--violeta);
+	font-size: 1.5rem;
+	margin-top: 10px;
+}
+
+button {
+	font-size: 0.9rem;
+	margin: 30px 0 0;
+	width: 150px;
+	background-color: var(--gris);
+	color: var(--azul);
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 0 0 10px var(--azul);
+	z-index: 50;
+}
+
+button:hover {
+	background-color: var(--violeta);
+	color: var(--gris);
+	cursor: pointer;
+	box-shadow: 0 0 10px var(--violeta);
+}
+
+figure {
+  position: relative;
+  margin: auto;
+}
+
+.img-background {
+	width: 90vw;
+	height: 500px;
+	margin: 30px auto;
+}
+
+.img-mini {
+  width: 50vw;
+  height:300px;
+  position: absolute;
+  top: 150px;
+  left: 25%;
+}

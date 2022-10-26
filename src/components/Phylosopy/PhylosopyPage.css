@@ -1,0 +1,25 @@
+.phylosopy {
+	width: 90vw;
+	margin: 50px auto;
+	text-align: center;
+}
+
+strong {
+	color: var(--violeta);
+	font-size: 2rem;
+}
+
+article {
+	margin-top: 50px;
+}
+
+i {
+	color: var(--azul);
+  display: block;
+  margin-top: 50px;
+}
+
+h3 {
+  color: var(--violeta);
+  font-size: 2rem;
+}

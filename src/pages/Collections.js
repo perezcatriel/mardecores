@@ -1,3 +1,9 @@
-export default function Collection () {
-  return <h1>Collection</h1>
+import Card from "../components/Collection/Card";
+
+export default function Collection() {
+	return (
+		<>
+			<Card />
+		</>
+	);
 }

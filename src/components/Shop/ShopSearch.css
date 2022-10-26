@@ -1,7 +1,9 @@
 .shop {
 	background-color: var(--violeta);
-	width: 100vw;
+	width: 90vw;
 	height: 100px;
+	/* margin: 20px; */
+	border-radius: 5px;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -14,7 +16,10 @@
 .shop--input {
 	/* margin: auto; */
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
+	margin: auto;
+	/* padding: 20px; */
+	
 }
 
 .shop--input__search {

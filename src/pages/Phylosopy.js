@@ -1,3 +1,5 @@
+import PhylosopyPage from "../components/Phylosopy/PhylosopyPage";
+
 export default function Phylosopy() {
-  return <h1>Phylosopy</h1>
+	return <PhylosopyPage />;
 }

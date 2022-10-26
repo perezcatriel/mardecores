@@ -20,9 +20,11 @@
 
 .contact--menu {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 20px;
 	width: 90vw;
 	justify-content: center;
+
 }
 
 .contact--redes__title {
