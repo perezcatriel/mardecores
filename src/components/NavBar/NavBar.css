@@ -6,17 +6,15 @@
 }
 
 .header--menu li {
-  margin: 5px;
-  font-size: 1rem;
+	margin: 5px;
+	font-size: 1rem;
 }
 
 @media only screen and (min-width: 600px) {
-	nav {
+	/* nav {
 		position: absolute;
 		width: 100vw;
 		height: 100px;
 		top: 0px;
-	}
-
-	
+	} */
 }

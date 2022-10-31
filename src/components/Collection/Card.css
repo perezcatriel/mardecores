@@ -40,15 +40,25 @@ figure {
 }
 
 .img-background {
-	width: 90vw;
+	width: 80vw;
 	height: 500px;
 	margin: 30px auto;
 }
 
 .img-mini {
-  width: 50vw;
-  height:300px;
+  width: 200px;
+  height:200px;
   position: absolute;
-  top: 150px;
-  left: 25%;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
+}
+
+@media only screen and (min-width: 600px) {
+	.img-mini {
+		width: 400px;
+		height:400px;
+		position: absolute;
+		top: calc(50% - 200px);
+		left: calc(50% - 200px);
+	}
 }

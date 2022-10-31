@@ -75,41 +75,14 @@
 }
 
 @media only screen and (min-width: 600px) {
-	/* For mobile phones: */
 	.header--title {
-		font-size: 3.5rem;
-	}
-
-	.header--login__button {
-		width: 100px;
+		font-size: 3rem;
 	}
 }
 
 @media only screen and (min-width: 900px) {
 	.header--title {
 		font-size: 4rem;
-	}
-
-	.header--menu {
-		display: flex;
-		margin: 0 0 0 20px;
-	}
-
-	.header--menu a {
-		text-decoration: none;
-	}
-
-	.header--menu a:hover,
-	.header--menu li:hover {
-		cursor: pointer;
-		color: var(--azul);
-	}
-
-	.header--menu li {
-		color: var(--violeta);
-		font-size: 1rem;
-		list-style-type: none;
-		margin-right: 15px;
 	}
 
 	.header--login__button {
