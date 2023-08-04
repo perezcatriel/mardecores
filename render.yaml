@@ -1,6 +1,10 @@
 # render.yaml
+version: 1
 services:
   - name: my-react-app
     type: web
-    buildCommand: react-scripts build
-    startCommand: react-scripts start
+    env:
+      - key: NODE_ENV
+        value: production
+    buildCommand: npm run build
+    startCommand: serve -s build
