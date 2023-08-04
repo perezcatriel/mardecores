@@ -2,5 +2,5 @@
 services:
   - name: my-react-app
     type: web
-    buildCommand: npm run build
-    startCommand: serve -s build
+    buildCommand: react-scripts build
+    startCommand: react-scripts start
