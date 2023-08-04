@@ -23,14 +23,18 @@
 	color: var(--violeta);
 	text-shadow: 0 0 10px var(--gris);
 	font-size: 3rem;
+	text-align: center;
 }
 
 .presentation--parrafo {
-	color: var(--violeta);
+	font-family: var(--angosta);
+	font-size: 2rem;
+	text-align: center;
 }
 
 .presentation--button {
-	font-size: 0.9rem;
+	font-size: 1rem;
+	font-family: var(--angosta);
 	margin-top: 20px;
 	width: 150px;
 	background-color: var(--gris);
@@ -50,12 +54,14 @@
 
 .presentation--images__background {
 	display: none;
+	max-height: 500px;
 }
 
 .presentation--images__mini {
 	margin-top: 50px;
 	border-radius: 10px;
 	width: 80vw;
+	max-width: 400px;
 	box-shadow: 0 0 10px var(--azul);
 	outline: 1px solid var(--azul);
 }

@@ -12,12 +12,12 @@ function Header() {
 				</div>
 
 				<Link to="/login"><button className="header--login__button">
-				Login In
+					Ingresar
 				</button>
-</Link>
+				</Link>
 				<article className="header--login__shop">
 					<span className="material-symbols-outlined">shopping_bag</span>
-					<div className="header--login__circulo">5</div>
+					<div className="header--login__circulo">0</div>
 				</article>
 			</section>
 		</header>

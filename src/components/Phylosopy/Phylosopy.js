@@ -1,24 +1,24 @@
 import "./Phylosopy.css";
-import jeriAtardecer from "../../assets/images.jpeg";
-import bikini from "../../assets/bikini.jpeg";
+import marde_background from "../../assets/marde_background.jpg";
+import marde_icon from "../../assets/icons/mardecores-caracol-azul.jpeg";
 
 function Phylosopy() {
 	return (
 		<div className="presentation">
 			<article className="presentation--slogan">
 				<h2 className="presentation--title">Mar de Cores</h2>
-				<p className="presentation--parrafo">Slogan</p>
-				<button className="presentation--button">Shop Now</button>
+				<p className="presentation--parrafo">Ropa, Estética y Magia para tu alma.</p>
+				<button className="presentation--button">Contáctanos</button>
 			</article>
 
 			<article className="presentation--images">
 				<img
-					src={jeriAtardecer}
+					src={marde_background}
 					alt="slogan"
 					className="presentation--images__background"
 				/>
 				<img
-					src={bikini}
+					src={marde_icon}
 					alt="mini-img"
 					className="presentation--images__mini"
 				/>
