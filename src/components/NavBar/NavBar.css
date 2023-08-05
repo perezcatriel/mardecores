@@ -7,8 +7,8 @@
 
 .header--menu li {
 	margin: 5px;
-	padding: 5px;
-	font-size: 1.3rem;
+	padding: 2px;
+	font-size: 1rem;
 	font-family: var(--angosta);
 }
 

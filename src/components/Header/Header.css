@@ -22,15 +22,18 @@
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	display: none; /* ocultamos por el momento */
 }
 
 .header--login__avatar,
 .header--login__shop {
 	color: var(--violeta);
+	display: none; /* ocultamos por el momento */
 }
 
 .header--login__shop {
 	margin-top: 25px;
+	display: none; /* ocultamos por el momento */
 }
 
 .header--login__button {

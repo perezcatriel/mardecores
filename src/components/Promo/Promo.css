@@ -1,7 +1,8 @@
 .promo {
 	width: 90vw;
 	margin: 50px auto;
-	background-image: url("../../assets/jeri-atardecer.jpg");
+	border-radius: 10px;
+	background-image: url("../../assets/marde_fondo_mar_luz.webp");
 	background-position: 50%;
 	background-size: cover;
 	background-attachment: fixed;
@@ -26,7 +27,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	border-radius: 10px;
+	border-radius: 50%;
 	background-color: rgba(0, 0, 0, 0.2); /* Color del filtro (puedes ajustar el valor alfa para hacerlo más o menos transparente) */
 	z-index: 1;
   }
@@ -35,22 +36,25 @@
 .promo--image__img-2 {
 	width: 50vw;
 	box-shadow: 0 0 20px var(--azul);
-	border-radius: 10px;
+	border-radius: 50%;
 }
 
 .promo--image__parrafo {
 	position: absolute;
+	margin: auto;
 	color: var(--rosa);
 	font-family: var(--angosta);
-	text-shadow: 0 0 10px var(--azul);
-	font-size: 4rem;
+	text-shadow: 0 0 5px var(--azul);
+	font-size: 3rem;
 	z-index: 10;
 }
 
 .promo--image__parrafo:hover {
 	color: var(--violeta);
-	text-shadow: 0 0 10px var(--azul);
+	/* text-shadow: 1px 1px 0px var(--rosa); */
+	font-size: 3.5rem;
 	cursor: pointer;
+	
 }
 
 @media only screen and (min-width: 600px) {

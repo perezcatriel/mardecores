@@ -54,12 +54,12 @@
 
 .presentation--images__background {
 	display: none;
-	max-height: 500px;
+	
 }
 
 .presentation--images__mini {
 	margin-top: 50px;
-	border-radius: 10px;
+	border-radius: 50%;
 	width: 80vw;
 	max-width: 400px;
 	box-shadow: 0 0 10px var(--azul);
@@ -78,12 +78,13 @@
 
 	.presentation--images__background {
 		display: block;
-		width: 500px;
+		width: 30vw;
+		height: 30vw;
 		margin-left: 50px;
 	}
 
 	.presentation--images__mini {
-		width: 200px;
+		max-width: 150px;
 		position: absolute;
 		top: 200px;
 	}
@@ -95,11 +96,15 @@
 	}
 
 	.presentation--images__background {
-		width: 40vw;
+		min-width: 30vw;
+		
 	}
 
 	.presentation--images__mini {
-		width: 20vw;
+		/* width: 20vw; */
+		margin-top: 20vh;
+		margin-left: -3vw;
+		min-width: 15vw;
 	}
 
 	.presentation--button {
