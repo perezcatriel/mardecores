@@ -27,9 +27,11 @@
 }
 
 .presentation--parrafo {
+	margin-top: -10px;
 	font-family: var(--angosta);
-	font-size: 2rem;
+	font-size: 1.8rem;
 	text-align: center;
+	color: var(--azul);
 }
 
 .presentation--button {
@@ -37,8 +39,8 @@
 	font-family: var(--angosta);
 	margin-top: 20px;
 	width: 150px;
-	background-color: var(--gris);
-	color: var(--azul);
+	background-color: var(--azul);
+	color: var(--gris);
 	border: none;
 	border-radius: 10px;
 	padding: 10px;
@@ -46,10 +48,10 @@
 }
 
 .presentation--button:hover {
-	background-color: var(--violeta);
+	background-color: var(--celeste);
 	color: var(--gris);
 	cursor: pointer;
-	box-shadow: 0 0 10px var(--violeta);
+	box-shadow: 0 0 10px var(--gris);
 }
 
 .presentation--images__background {
@@ -64,6 +66,11 @@
 	max-width: 400px;
 	box-shadow: 0 0 10px var(--azul);
 	outline: 1px solid var(--azul);
+	transition: transform 1s ease;
+}
+
+.presentation--images__mini:hover {
+	transform: rotate(360deg);
 }
 
 @media only screen and (min-width: 900px) {

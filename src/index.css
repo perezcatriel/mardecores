@@ -1,9 +1,11 @@
 :root {
-	--violeta: #bf92b4;
-	--rosa: #ffddc4;
-	--gris: #eaebeb;
-	--celeste: #03c9d4;
-	--azul: #016aa1;
+	--violeta: #c2855d;
+	--rosa: #ebe07e;
+	--gris: #bde9e9;
+	--celeste: #3cbfc4;
+	--azul: #0f8888;
+
+	--celesteOpacity: #3cbfc433;
 
 	--cursiva: "Style Script";
 	--angosta: Oswald;

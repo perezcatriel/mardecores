@@ -1,5 +1,6 @@
 import "./Promo.css";
 import bikini from "../../assets/icons/mardecores-caracol-azul.jpeg";
+import caracolNaranja from "../../assets/icons/mardecores-caracol-naranja.jpeg";
 
 function Promo() {
 	return (
@@ -10,7 +11,7 @@ function Promo() {
 			</figure>
 
 			<figure className="promo--image">
-				<img src={bikini} alt="promo--image__img-2" className="promo--image__img-2" />
+				<img src={caracolNaranja} alt="promo--image__img-2" className="promo--image__img-2" />
 				<p className="promo--image__parrafo">Estética</p>
 			</figure>
 

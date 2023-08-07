@@ -1,6 +1,6 @@
 import "./Phylosopy.css";
 import marde_background from "../../assets/marde_background.jpg";
-import marde_icon from "../../assets/icons/mardecores-caracol-azul.jpeg";
+import marde_icon from "../../assets/icons/mardecores-logo.jpeg";
 
 function Phylosopy() {
 	return (
