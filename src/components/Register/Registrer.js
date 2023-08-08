@@ -10,8 +10,18 @@ function Registrer() {
 					placeholder="name@gmail.com"
 					className="register--form__input"
 				/>
+				<input
+					type="name"
+					placeholder="nombre"
+					className="register--form__input"
+				/>
+				<textarea
+					type="textarea"
+					placeholder="Escriba aca su mensaje"
+					className="register--form__input"
+				/>
 				<button type="button" className="register--form__button">
-					Register
+					Contáctanos
 				</button>
 			</form>
 		</section>

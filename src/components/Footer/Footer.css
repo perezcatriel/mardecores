@@ -7,6 +7,10 @@
 	color: var(--violeta);
 }
 
+.contact--info-1 p {
+	font-size: 1rem;
+}
+
 .contact--contact-1,
 .contact--contact-2 {
 	margin: auto;
@@ -27,6 +31,10 @@
 
 }
 
+.contact--redes {
+	width: 90vw;
+}
+
 .contact--redes__title {
 	text-align: center;
 }
@@ -36,7 +44,12 @@
 	gap: 20px;
 	text-decoration: none;
 	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	
 }
+
+
 
 .contact--redes__facebook,
 .contact--redes__instagram,

@@ -22,7 +22,7 @@
 	font-family: var(--cursiva);
 	color: var(--violeta);
 	text-shadow: 0 0 10px var(--gris);
-	font-size: 3rem;
+	font-size: 4rem;
 	text-align: center;
 }
 
@@ -39,7 +39,7 @@
 	font-family: var(--angosta);
 	margin-top: 20px;
 	width: 150px;
-	background-color: var(--azul);
+	background-color: var(--celeste);
 	color: var(--gris);
 	border: none;
 	border-radius: 10px;
@@ -48,7 +48,7 @@
 }
 
 .presentation--button:hover {
-	background-color: var(--celeste);
+	background-color: var(--azul);
 	color: var(--gris);
 	cursor: pointer;
 	box-shadow: 0 0 10px var(--gris);

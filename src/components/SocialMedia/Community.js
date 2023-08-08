@@ -4,7 +4,7 @@ import bikini from "../../assets/bikini.jpeg";
 function Community() {
 	return (
 		<section className="community">
-			<h2 className="community--title">#mardecores</h2>
+			<h2 className="community--title">#marde_cores</h2>
 
 			<article className="community--cards">
 				<section className="community--cards__col-1">

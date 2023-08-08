@@ -12,8 +12,8 @@ function Footer() {
 				</div>
 
 				<div className="contact--info__anchor">
-					<a>Mail: info@my-domain.com</a>
-					<a>Tel: 123-456-7890</a>
+					<a>marde_cores@gmail.com</a>
+					<a>3541 - 442200</a>
 				</div>
 			</article>
 
@@ -24,11 +24,11 @@ function Footer() {
 					<a>
 						<li className="contact--redes__facebook">@marde_cores.ropa</li>
 					</a>
-					/
+
 					<a>
 						<li className="contact--redes__instagram">@marde_cores.estetica</li>
 					</a>
-					/
+
 					<a>
 						<li className="contact--redes__youtube">@marde_cores.magia</li>
 					</a>
