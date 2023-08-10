@@ -4,16 +4,18 @@
 	justify-content: space-between;
 	align-items: center;
 	width: 90vw;
-	height: 20vh;
+	height: 50vh;
 	background-image: url("../../assets/jeri.jpeg");
-	background-size: contain;
+	background-size: cover;
 }
 
 .register--form {
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
+	margin: auto;
 }
 
 .register--form__input {
@@ -24,6 +26,7 @@
 	border: none;
 	box-shadow: 0 0 10px var(--azul);
 	padding: 10px;
+	margin: 10px;
 	outline: 1px solid var(--violeta);
 	width: 200px;
 }
@@ -38,7 +41,7 @@
 
 .register--form__button {
 	font-size: 0.9rem;
-	margin: 10px 10px 0;
+	margin: 10px auto 0;
 	width: 200px;
 	background-color: var(--gris);
 	color: var(--azul);
@@ -58,7 +61,6 @@
 @media only screen and (min-width: 600px) {
 	.register--form {
 		margin: auto;
-		align-items: end;
 	}
 
 	.register--form__input {

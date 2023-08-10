@@ -5,6 +5,7 @@
 	flex-wrap: wrap;
 	gap: 10px;
 	color: var(--violeta);
+	
 }
 
 .contact--info-1 p {
@@ -75,36 +76,16 @@ a:hover {
 	color: var(--azul);
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
 	.contact {
-		display: grid;
-
-		grid-template-areas:
-			"contact1 contact2 menu "
-			"redes redes redes";
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		place-self: center;
+		margin: auto;
+		background-color: aqua;
 	}
 
-	.contact--contact-1 {
-		grid-area: contact1;
-		text-align: start;
-	}
-
-	.contact--contact-2 {
-		grid-area: contact2;
-		text-align: start;
-
-	}
-
-	.contact--menu {
-		display: grid;
-		grid-area: menu;
-		width: 100%;
-	}
-
-	.contact--redes {
-		grid-area: redes;
-		/* display: flex;
-		justify-content: space-between; */
-		width: 90vw;
-	}
+	
 }
+*/

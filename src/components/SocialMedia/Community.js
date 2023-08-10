@@ -1,5 +1,17 @@
 import "./Community.css";
-import bikini from "../../assets/bikini.jpeg";
+
+import esteticaServicios from "../../assets/store/estetica-servicios.jpeg";
+import magiaBudaRojo from "../../assets/store/magia-buda-rojo.jpeg";
+import magiaBuda from "../../assets/store/magia-buda.jpeg";
+import magiaCabeza from "../../assets/store/magia-cabeza.jpeg";
+import magiaPortaSahumerio from "../../assets/store/magia-portasahumerio.jpeg";
+import magiaSahumerioBolita from "../../assets/store/magia-sahumeria-bolita.jpeg";
+import magiaSahumerio from "../../assets/store/magia-sahumerio.jpeg";
+import ropaAritoEstrella from "../../assets/store/ropa-arito-estrellas.jpeg";
+import ropaAritos from "../../assets/store/ropa-aritos.jpeg";
+import ropaBotaNegra from "../../assets/store/ropa-bota-negra.jpeg";
+import ropaBrazalete from "../../assets/store/ropa-brazalete.jpeg";
+import ropaPinza from "../../assets/store/ropa-pinza.jpeg";
 
 function Community() {
 	return (
@@ -8,21 +20,21 @@ function Community() {
 
 			<article className="community--cards">
 				<section className="community--cards__col-1">
-					<img src={bikini} className="a" />
-					<img src={bikini} className="b" />
-					<img src={bikini} className="c" />
-					<img src={bikini} className="d" />
-					<img src={bikini} className="e" />
-					<img src={bikini} className="f" />
+					<img src={esteticaServicios} className="a" />
+					<img src={magiaPortaSahumerio} className="b" />
+					<img src={magiaCabeza} className="c" />
+					<img src={magiaBuda} className="d" />
+					<img src={magiaSahumerioBolita} className="e" />
+					<img src={ropaAritos} className="f" />
 				</section>
 
 				<section className="community--cards__col-2">
-					<img src={bikini} className="g" />
-					<img src={bikini} className="h" />
-					<img src={bikini} className="i" />
-					<img src={bikini} className="j" />
-					<img src={bikini} className="k" />
-					<img src={bikini} className="l" />
+					<img src={ropaPinza} className="g" />
+					<img src={ropaAritoEstrella} className="h" />
+					<img src={ropaBotaNegra} className="i" />
+					<img src={ropaBrazalete} className="j" />
+					<img src={magiaBudaRojo} className="k" />
+					<img src={magiaSahumerio} className="l" />
 				</section>
 			</article>
 		</section>

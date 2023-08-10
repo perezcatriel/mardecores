@@ -57,6 +57,12 @@
 
 	.feature--card {
 		width: 30vw;
+		height: 50vh;
+	}
+
+	.feature--card__image {
+		width: 25vw;
+		height: 30vh;
 	}
 }
 
@@ -67,5 +73,10 @@
 	
 	.feature--card {
 		width: 25vw;
+	}
+
+	.feature--card__image {
+		width: 20vw;
+		min-height: 40vh;
 	}
 }
