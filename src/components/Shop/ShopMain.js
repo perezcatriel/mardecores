@@ -1,3 +1,5 @@
+
+import React from 'react';
 import "./ShopMain.css";
 import image from "../../assets/bikini.jpeg";
 

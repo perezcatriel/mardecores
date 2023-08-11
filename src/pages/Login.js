@@ -1,3 +1,4 @@
+import React from 'react';
 import { Login as Admin } from "../components/Login/Login";
 
 export default function Login() {

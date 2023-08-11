@@ -1,3 +1,4 @@
+import React from 'react';
 import "./Community.css";
 
 import esteticaServicios from "../../assets/store/estetica-servicios.jpeg";

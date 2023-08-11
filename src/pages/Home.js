@@ -1,3 +1,4 @@
+import React from 'react';
 import Phylosopy from "../components/Phylosopy/Phylosopy";
 import Promo from "../components/Promo/Promo";
 import Feature from "../components/Product/Feature";

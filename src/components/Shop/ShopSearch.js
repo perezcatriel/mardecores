@@ -1,3 +1,4 @@
+import React from 'react';
 import "./ShopSearch.css";
 
 function ShopSearch() {

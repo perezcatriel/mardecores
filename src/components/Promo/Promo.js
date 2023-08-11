@@ -1,3 +1,6 @@
+
+import React from 'react';
+
 import "./Promo.css";
 import caracolAzul from "../../assets/icons/marde-caracol-azul.jpeg";
 import caracolAmarillo from "../../assets/icons/marde-caracol-amarillo.jpeg";

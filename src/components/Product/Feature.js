@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./Feature.css";
 
 import steticServices from "../../assets/store/estetica-servicios.jpeg";

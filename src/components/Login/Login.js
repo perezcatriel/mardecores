@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./Login.css";
 
 function admin(user, password) {

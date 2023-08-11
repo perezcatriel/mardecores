@@ -1,9 +1,11 @@
+import React from 'react';
+
 import "./Footer.css";
 
 function ContactInfo() {
   return (
     <div className="contact--info">
-      <p>Av. San Martín, Cosquín, Argentina</p>
+      <p>Av. San Martín 1157, Cosquín, Argentina</p>
       <p>C.P. 5166</p>
     </div>
   );
@@ -12,7 +14,7 @@ function ContactInfo() {
 function ContactLinks() {
   return (
     <div className="contact--links">
-      <a href="mailto:marde_cores@gmail.com">marde_cores@gmail.com</a>
+      <a href="mailto:mardecorestienda@gmail.com">marde_cores@gmail.com</a>
       <a href="tel:+3541442200">3541 - 442200</a>
     </div>
   );

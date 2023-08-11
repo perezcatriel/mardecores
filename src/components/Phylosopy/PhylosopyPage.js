@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./PhylosopyPage.css";
 
 export default function PhylosopyPage() {

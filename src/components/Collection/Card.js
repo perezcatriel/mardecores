@@ -1,3 +1,5 @@
+import React from 'react';
+
 import "./Card.css";
 import imagenBackground from "../../assets/jeri-atardecer.jpg";
 import imagenMini from "../../assets/bikini.jpeg";
