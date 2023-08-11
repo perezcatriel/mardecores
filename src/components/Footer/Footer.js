@@ -14,8 +14,8 @@ function ContactInfo() {
 function ContactLinks() {
   return (
     <div className="contact--links">
-      <a href="mailto:mardecorestienda@gmail.com">marde_cores@gmail.com</a>
-      <a href="tel:+3541442200">3541 - 442200</a>
+      <a href="mailto:mardecorestienda@gmail.com">mardecorestienda@gmail.com</a>
+      <a href="https://wa.me/3541442200">3541 - 442200</a>
     </div>
   );
 }
