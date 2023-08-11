@@ -18,7 +18,7 @@ function Registrer() {
 				<textarea
 					type="textarea"
 					placeholder="Escriba aca su mensaje"
-					className="register--form__input"
+					className="register--form__input area"
 				/>
 				<button type="button" className="register--form__button">
 					Contáctanos

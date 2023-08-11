@@ -5,7 +5,7 @@
 	align-items: center;
 	width: 90vw;
 	height: 50vh;
-	background-image: url("../../assets/jeri.jpeg");
+	background-image: url("../../assets/jericoacoara.jpg");
 	background-size: cover;
 }
 
@@ -31,6 +31,10 @@
 	width: 200px;
 }
 
+.area {
+	height: 200px;
+}
+
 .register--form__input:focus {
 	outline: 5px solid var(--rosa);
 }
@@ -45,6 +49,7 @@
 	width: 200px;
 	background-color: var(--gris);
 	color: var(--azul);
+	font-weight: bold;
 	border: none;
 	border-radius: 10px;
 	padding: 10px;

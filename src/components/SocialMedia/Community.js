@@ -16,7 +16,8 @@ import ropaPinza from "../../assets/store/ropa-pinza.jpeg";
 function Community() {
 	return (
 		<section className="community">
-			<h2 className="community--title">#marde_cores</h2>
+			<h2 className="community--title"><a href="https://www.instagram.com/marde_cores/" className="link" target="_blank">@marde_cores</a></h2>
+			<h2 className="community--title"><a href="https://www.instagram.com/marde_cores.estetica/" className="link" target="_blank">@marde_cores.estetica</a></h2>
 
 			<article className="community--cards">
 				<section className="community--cards__col-1">

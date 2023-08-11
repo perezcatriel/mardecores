@@ -10,6 +10,11 @@
 	text-align: center;
 }
 
+.link {
+	color: var(--violeta);
+	font-size: 1.5rem;
+}
+
 .community--cards {
 	display: flex;
 	flex-direction: column;
