@@ -15,7 +15,7 @@ function ContactLinks() {
   return (
     <div className="contact--links">
       <a href="mailto:mardecorestienda@gmail.com" target='_blank'>mardecorestienda@gmail.com</a>
-      <a href="https://api.whatsapp.com/send?phone=5435415442200&text=Hola%20me%20interesa%20tu%20producto.
+      <a href="https://api.whatsapp.com/send?phone=54354115442200&text=Hola%20me%20interesa%20tu%20producto.
 " target='_blank'>3541 - 442200</a>
     </div>
   );
