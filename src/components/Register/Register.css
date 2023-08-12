@@ -8,6 +8,7 @@
 	max-height: 90vh;
 	background-image: url("../../assets/jericoacoara.jpg");
 	background-size: cover;
+	font-family: var(--fina);
 }
 
 .register--form {
@@ -65,7 +66,7 @@ label {
   
 
 .register--form__button {
-	font-size: 0.5rem;
+	font-size: 1rem;
 	font-family: var(--fina);
 	margin: 10px auto 0;
 	width: 200px;
@@ -102,6 +103,6 @@ label {
 	}
 
 	.register--form__button {
-		font-size: 1.5rem;
+		font-size: 1rem;
 	}
 }
