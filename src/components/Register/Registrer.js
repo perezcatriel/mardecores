@@ -1,69 +1,106 @@
-import React, { useState, useEffect } from 'react';
-import emailjs from "emailjs-com";
-import "./Register.css";
+import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
+import './Register.css';
 
-function Register() {
-  const [message, setMessage] = useState('');
-  const [showMessage, setShowMessage] = useState(false);
+const ContactUs = () => {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+  const [formStatus, setFormStatus] = useState(null);
 
-  function sendEmail(e) {
-    e.preventDefault();
+  const submitForm = (event) => {
+    event.preventDefault();
 
-    emailjs.sendForm(
-      "service_ofa30zn",
-      "template_k7brvvh",
-      e.target,
-      "j0V82kbYqUIR3StVz"
-    )
-    .then((result) => {
-      setMessage('Correo enviado con éxito!');
-      setShowMessage(true);
-    }, (error) => {
-      setMessage('Ocurrió un error al enviar el correo.');
-      setShowMessage(true);
-    });
+    emailjs
+      .send(
+        'service_ofa30zn',
+        'template_k7brvvh',
+        {
+          from_name: formData.name,
+          from_email: formData.email,
+          message: formData.message,
+        },
+        'j0V82kbYqUIR3StVz'
+      )
+      .then((response) => {
+        console.log('Correo electrónico enviado con éxito:', response);
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+        });
+        setFormStatus('success');
+        setTimeout(hideMessage, 2000);
+      })
+      .catch((error) => {
+        console.error('Error al enviar el correo electrónico:', error);
+        setFormStatus('error');
+        setTimeout(hideMessage, 2000);
+      });
+  };
 
-    e.target.reset();
-  }
-
-  useEffect(() => {
-    if (showMessage) {
-      setTimeout(() => {
-        setShowMessage(false);
-      }, 2000); // ocultar después de 2 segundos
-    }
-  }, [showMessage]);
+  const hideMessage = () => {
+    setFormStatus(null);
+  };
 
   return (
-    <section className="register">
-      <form className="register--form" onSubmit={sendEmail}>
-        <input
-          type="email"
-          name="email"
-          placeholder="name@gmail.com"
-          className="register--form__input"
-		  required
-        />
+    <div className="register" id="contact">
+
+      <form className="register--form" onSubmit={submitForm}>
+
+        <label htmlFor="name">Nombre:</label>
         <input
           type="text"
-          name="name"
+          id="name"
           placeholder="nombre"
           className="register--form__input"
-		  required
+          value={formData.name}
+          onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          required
         />
+
+        <label htmlFor="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          placeholder="name@gmail.com"
+          className="register--form__input"
+          value={formData.email}
+          onChange={(e) => setFormData({ ...formData, email: e.target.value })}
+          required
+        />
+
+
+        <label htmlFor="message">Mensaje:</label>
         <textarea
-          name="message"
+          id="message"
           placeholder="Escriba aquí su mensaje"
           className="register--form__input area"
-		  required
+          value={formData.message}
+          onChange={(e) => setFormData({ ...formData, message: e.target.value })}
+          required
         />
-        {showMessage && <div className="register--message">{message}</div>}
+
+
+        {formStatus === 'success' && (
+          <div className="register--message">
+            Formulario enviado exitosamente.
+          </div>
+        )}
+        {formStatus === 'error' && (
+          <div className="contact-us__status-message error">
+            Ocurrió un error al enviar el formulario.
+          </div>
+        )}
+
         <button type="submit" className="register--form__button">
-          Contáctanos
+          Enviar
         </button>
       </form>
-    </section>
+    </div>
   );
-}
+};
 
-export default Register;
+export default ContactUs;
